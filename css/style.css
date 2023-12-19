@@ -1,0 +1,73 @@
+
+.header{
+    background-color: #FF69B4;
+    width: auto;
+    height: auto;
+}
+.nav-link:hover{
+    background-color: #F8C8DC;
+    color: aliceblue;
+    font-size: 30px;
+    font-style: white ;
+}
+.pro-pic{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+.font-name{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Whisper', cursive;
+}
+.font-des{
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Whisper', cursive;
+}
+#about-me-greet{
+    font-size: 100px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Whisper', cursive;
+}
+#about-me-desc{
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+.btn-primary{
+    background-color: #FF69B4 !important;
+    border: #F8C8DC !important;
+}
+.sk-title{
+    background-color:#FF69B4 ;
+    width: 200px;
+    height: 50px;
+    color: White;
+    text-align: center;
+    padding:5px ;
+    border-radius: 10px;
+}
+.my-list{
+    list-style: none;
+}
+.my-list ::before{
+    content:'✓ ';
+    color: #FF69B4;
+    
+}
+
+.my-footer :hover{
+    background-color: #F8C8DC;
+    opacity: 50%;
+    color: black;
+}
+
+#img-size{
+    width: 400px;
+    height: 300px;
+}
+
+.col{
+    padding-bottom: 30px;
+}
