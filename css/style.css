@@ -4,16 +4,20 @@
     width: auto;
     height: auto;
 }
+.nav-link{
+    color: aliceblue !important; 
+}
 .nav-link:hover{
     background-color: #F8C8DC;
-    color: aliceblue;
+    color: aliceblue !important;
     font-size: 30px;
-    font-style: white ;
 }
 .pro-pic{
+    top: 10px !important;;
     width: 300px;
     height: 400px;
     border-radius: 50%;
+    box-shadow:5px 5px 5px 5px #F8C8DC;
 }
 .font-name{
     font-size: 50px;
@@ -34,16 +38,15 @@
     text-align:justify;
     text-justify: inter-word;
 }
-
 .btn-primary{
     background-color: #FF69B4 !important;
     border: #F8C8DC !important;
 }
-.sk-title{
+.sk-title, .my-proj{
     background-color:#FF69B4 ;
-    width: 200px;
+    width: auto;
     height: 50px;
-    color: White;
+    color: aliceblue !important;
     text-align: center;
     padding:5px ;
     border-radius: 10px;
@@ -56,16 +59,21 @@
     color: #FF69B4;
     
 }
+.my-footer{
+    color: black !important;
+}
 
 .my-footer :hover{
     background-color: #F8C8DC;
     opacity: 50%;
-    color: black;
+    color: black !important;
 }
 
 #img-size{
     width: 400px;
     height: 300px;
+    border: aliceblue;
+    box-shadow: 2px 2px 2px 2px #C9A9A6;
 }
 
 .col{
